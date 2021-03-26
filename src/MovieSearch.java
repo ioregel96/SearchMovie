@@ -19,7 +19,7 @@ public class MovieSearch extends JFrame {
         searchButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(rootPanel, "Movie Search");
+                JOptionPane.showMessageDialog(rootPanel, "Movie Found");
             }
         });
     }
